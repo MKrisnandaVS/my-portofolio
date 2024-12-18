@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MKrisnandaVS</title>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/dist/css/final.css">
+    <link rel="stylesheet" href="/public/css/final.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark');
     }  else {
-        document.documentElement.classList.remove('dark')
+        document.documentElement.classList.remove('dark')  
     }
 </script>
 </head>
