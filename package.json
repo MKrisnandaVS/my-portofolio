@@ -1,12 +1,12 @@
 {
   "name": "my-portofolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i input.css -o dist/css/style.css --watch",
-    "build": "npx tailwindcss -i input.css -o dist/css/final.css --minify"
+    "build": "npx tailwindcss -i input.css -o dist/css/final.css --minify",
+    "prettier":"npx prettier --write ./dist/*.html"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,14 @@
   "devDependencies": {
     "prettier": "^3.0.0-alpha.6",
     "prettier-plugin-tailwindcss": "^0.6.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKrisnandaVS/my-portofolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MKrisnandaVS/my-portofolio/issues"
+  },
+  "homepage": "https://github.com/MKrisnandaVS/my-portofolio#readme",
+  "description": ""
 }
