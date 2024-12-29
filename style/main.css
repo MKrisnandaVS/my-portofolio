@@ -45,14 +45,14 @@ body {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 3px;
   position: relative;
-  width: 600px;
+  width: 800px;
 }
 
 .text-box p {
   margin: 0;
-  text-align: left;
+  text-align: justify;
 }
 
 .text-box span {
